@@ -1,0 +1,76 @@
+.footer {
+  background-color: #101820;
+  padding: 80px 0;
+  &-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+    margin-bottom: 46px;
+  }
+  &-menu {
+    list-style: none;
+    padding: 0;
+  }
+  &-item {
+    font-family: $primary-font;
+    margin-bottom: 20px;
+  }
+  &-link {
+    text-decoration: none;
+    color: $white-text;
+    transition: all 0.5s;
+  }
+  &-link:hover {
+    text-decoration: underline;
+    color: $primary-color;
+  }
+  &-contact {
+    margin-right: 120px;
+  }
+  &-connect {
+    font-family: $primary-font;
+    color: $white-text;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    margin-bottom: 18px;
+  }
+  &-icon {
+    margin-right: 24px;
+    color: $white-text;
+    font-size: 28px;
+    line-height: 28px;
+    padding: 6px;
+    cursor: pointer;
+  }
+  &-location {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 125px;
+  }
+  &-address {
+    font-family: $primary-font;
+    color: $white-text;
+  }
+  &-certificate {
+    text-align: left;
+    align-items: left;
+  }
+  &-location__title {
+    font-family: $primary-font;
+    color: $white-text;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 32px;
+  }
+  &-location__image {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+  &-location__image img {
+    max-width: 174px;
+  }
+}

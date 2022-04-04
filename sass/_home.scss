@@ -1,0 +1,21 @@
+.home {
+  // margin-bottom: 177px;
+  &-main {
+    transform: translateY(-200%);
+  }
+  &-header {
+    font-family: $secondary-font;
+    color: $white-text;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 57.6px;
+    margin-bottom: 24px;
+  }
+  &-desc {
+    font-family: $primary-font;
+    color: $white-text;
+    font-size: 25px;
+    line-height: 33.6px;
+    margin-bottom: 32px;
+  }
+}

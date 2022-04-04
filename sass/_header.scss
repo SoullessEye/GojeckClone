@@ -1,0 +1,53 @@
+.header {
+  padding: 23px 0 29px;
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-logo {
+    max-width: 119px;
+    max-height: 28px;
+    cursor: pointer;
+  }
+  &-language {
+    margin-left: 28px;
+    font-family: $primary-font;
+    text-transform: uppercase;
+    line-height: 24px;
+    cursor: pointer;
+  }
+  &-language a {
+    text-decoration: none;
+    font-size: 18px;
+  }
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  &-item {
+    list-style: none;
+    cursor: pointer;
+  }
+  &-link {
+    font-family: $primary-font;
+    text-decoration: none;
+    color: $black-text;
+    line-height: 24px;
+    text-align: left;
+    transition: all 0.5s;
+  }
+  &-link:hover {
+    color: $primary-color;
+  }
+  &-customer {
+    text-align: center;
+  }
+}
+.icon-customer {
+  font-size: 13px;
+  line-height: 13px;
+  margin-left: 4px;
+}

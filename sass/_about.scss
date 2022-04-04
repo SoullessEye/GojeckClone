@@ -1,0 +1,22 @@
+.about {
+  margin-bottom: 136px;
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 95px;
+  }
+  &-img img {
+    max-width: 570px;
+    max-height: 359px;
+    border-radius: 46px;
+  }
+  &-content {
+    max-width: 475px;
+    text-align: left;
+    font-family: $primary-font;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+  }
+}

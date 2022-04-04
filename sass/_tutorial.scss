@@ -1,0 +1,43 @@
+.tutorial {
+  margin-bottom: 104px;
+  &-header {
+    font-family: $secondary-font;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+    margin-bottom: 40px;
+  }
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 104px;
+  }
+  &-content {
+    max-width: 570px;
+  }
+  &-menu {
+    font-family: $primary-font;
+    padding: 0;
+  }
+  &-item {
+    list-style: none;
+    padding: 24px 22px;
+    cursor: pointer;
+    transition: all 0.25s;
+  }
+  &-item:hover {
+    background-color: $primary-color;
+    border-radius: 24px;
+    color: $white-text;
+  }
+  &-title {
+    font-weight: 500;
+    font-size: 28px;
+  }
+  &-image {
+    max-width: 474px;
+    cursor: pointer;
+  }
+}
